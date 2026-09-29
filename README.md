@@ -102,18 +102,31 @@ Analyzed drone inspection datasets and built dashboards supporting renewable-ene
 
 ## 🧰 Foundations
 
-- **Security & GRC:** ISC2 CC · NIST concepts · ISO 27001 concepts · COBIT (familiar) · risk assessment · security controls · IT audit fundamentals · access controls
-- **Programming & data:** Python · C++ · JavaScript · SQL · exploratory analysis, feature engineering, model evaluation
-- **Building:** FastAPI · Flask · React · Streamlit · Linux · Git
+- **Security & GRC:** ISC2 CC · NIST · ISO 27001 · COBIT · Risk Assessment · Security Controls · IT Audit · Access Controls
+- **Programming:** Python · C++ · JavaScript · SQL
+- **Cybersecurity Tools:** Nmap · Wireshark · Burp Suite · VirusTotal · AbuseIPDB · NVD
+- **Development:** FastAPI · Flask · React · Streamlit · REST APIs
+- **Systems & Tools:** Linux · Git · MySQL · MongoDB
+  
+---
+## 🎥 Outside the Terminal
+
+When I'm not in a terminal, you'll probably find me behind a camera or in an editing timeline.
+
+📸 Photography · 🎬 Video Editing · 🎞️ Visual Storytelling
+
+I love capturing places, people and moments, then turning the footage into something worth watching. I edit videos for the Shutterbugs Club at MIT-WPU, and it's the part of my week where I get to be creative without a debugger.
+
+📷 [See my work on Instagram](https://www.instagram.com/cap.chur?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==)
 
 ---
 
-## 🤝 Connect
+## 🤝Let's Connect
 
 If you work in automotive security, SDV or GRC, I'd enjoy hearing how you got started and what you wish you'd learned earlier.
 
 <p>
   <a href="www.linkedin.com/in/sujay-chawda-7aa90a281">LinkedIn</a> ·
   <a href="mailto:sujaychawdaofficial@gmail.com">sujaychawdaofficial@gmail.com</a> ·
-  <a href="[YOUR_RESUME_URL](https://drive.google.com/file/d/1N2vd6FT85TD0n7lN06eGdEFksWg1A7bG/view?usp=sharing)">Resume</a>
+  <a href="https://drive.google.com/file/d/1N2vd6FT85TD0n7lN06eGdEFksWg1A7bG/view?usp=sharing">Resume</a>
 </p>
