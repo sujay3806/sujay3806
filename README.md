@@ -21,12 +21,12 @@
 
 ---
 
-## In short
+## 📍 Where I stand right now
 
-- 🛡️ **Foundation:** ISC2 CC, security and GRC fundamentals, Python and C++, data analysis
-- 🔬 **Built so far:** anomaly detection on 27M+ CAN bus messages, ESP32 device authentication, a threat-intelligence dashboard
-- 🔭 **Exploring:** how vehicles are secured, and how security is governed and proven
-- 🤝 **Looking for:** internships and entry-level roles in cybersecurity, automotive security or GRC
+- 🛡️ **Solid on:** Security and GRC fundamentals, Passed ISC2 CC, Python and C++, data analysis
+- 🔬 **Built:** Anomaly detection on 27M+ CAN bus messages, ESP32 device authentication, A threat-intelligence dashboard
+- 🔭 **Curious about:** How vehicles are secured, and how security gets Governed and Proven
+- 🤝 **Open to:** Internships and entry-level roles in Cybersecurity, Automotive security or GRC
 
 ---
 
@@ -44,9 +44,6 @@
 - Access controls
 - Documentation that a reviewer can actually follow
 
-**📊 Security analytics** *(the thread through my projects)*
-- Data analysis, ML-based detection and explainability
-
 ---
 
 ## ❓ Questions I'm Exploring
@@ -54,8 +51,7 @@
 1. How do you keep an over-the-air software update channel trustworthy?
 2. How do you defend networks like CAN that were designed before modern security assumptions?
 3. How do you prove a vehicle is secure enough to ship, rather than simply claim it?
-4. How do you make a detection model explainable enough that someone else can trust its alerts?
-5. How do you turn a technical finding into a risk, a control and evidence that a reviewer can follow?
+4. How do you turn a technical finding into a risk, a control and evidence that a reviewer can follow?
 
 I don't have complete answers yet, and that's the point of exploring them.
 
@@ -97,8 +93,9 @@ Also on my GitHub: [carbon_credit_system](https://github.com/sujay3806/carbon_cr
 Analyzed drone inspection datasets and built dashboards supporting renewable-energy inspection workflows.
 
 - 🛡️ ISC2 Certified in Cybersecurity (CC)
-- 🎯 TryHackMe Pre Security, top 8% global ranking
+- 🎯 TryHackMe Pre Security, top 7% global ranking
 - 💳 Mastercard Cybersecurity Job Simulation (Forage)
+- 🛡️ Junior Cybersecurity Analyst Career Path, by Cisco
 - 🏆 Hackathon participation: Smart India Hackathon, HackMIT
 
 ---
