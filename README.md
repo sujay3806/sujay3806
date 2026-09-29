@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <a href="YOUR_LINKEDIN_URL">LinkedIn</a> ·
-  <a href="YOUR_RESUME_URL">Resume</a> ·
+  <a href="www.linkedin.com/in/sujay-chawda-7aa90a281">LinkedIn</a> ·
+  <a href="https://drive.google.com/file/d/1N2vd6FT85TD0n7lN06eGdEFksWg1A7bG/view?usp=sharing">Resume</a> ·
   <a href="mailto:sujaychawdaofficial@gmail.com">Email</a>
 </p>
 
