@@ -1,107 +1,122 @@
 <h1 align="center">Sujay Chawda</h1>
 
+<p align="center"><b>Cybersecurity student who builds to learn.</b></p>
+
 <p align="center">
-  <b>Cybersecurity student who builds to learn.</b><br/>
-  Grounded in security & GRC fundamentals · Curious about Software-Defined Vehicle security
+  Final-year B.Tech CSE (Cybersecurity &amp; Forensics) at MIT-WPU, Pune<br/>
+  Exploring Software-Defined Vehicle security and cybersecurity GRC
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ISC2-Certified%20in%20Cybersecurity-1F883D?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Track%201-GRC%20Fundamentals-6E40C9?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Track%202-SDV%20Security%20(Exploring)-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Pune%2C%20India-555?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ISC2-Certified%20in%20Cybersecurity-2ea043?style=flat-square" alt="ISC2 Certified in Cybersecurity" />
+  <img src="https://img.shields.io/badge/Exploring-SDV%20%26%20Automotive%20Security-0969da?style=flat-square" alt="Exploring SDV and automotive security" />
+  <img src="https://img.shields.io/badge/Building%20foundations-GRC%20%26%20Risk-8250df?style=flat-square" alt="Building foundations in GRC and risk" />
+</p>
+
+<p align="center">
+  <a href="YOUR_LINKEDIN_URL">LinkedIn</a> ·
+  <a href="YOUR_RESUME_URL">Resume</a> ·
+  <a href="mailto:sujaychawdaofficial@gmail.com">Email</a>
 </p>
 
 ---
 
-## 👋 About me
+## In short
 
-I'm a Computer Science Engineering student at MIT-WPU, specializing in **Cybersecurity & Forensics**. I learn by building: when a topic interests me, I try to make something with it, break it, and write down what I found.
-
-I'm growing along two paths, and I'm honest about where I am on each.
-
-| | 📋 Track 1: GRC | 🚗 Track 2: SDV Security |
-|---|---|---|
-| **Where I am** | Solid fundamentals | Early explorer, very curious |
-| **What I know** | Risk assessment basics, security controls, NIST and ISO 27001 concepts, IT audit fundamentals, access controls, documentation | Core security concepts, plus hands-on work with CAN bus data and embedded hardware authentication |
-| **Backed by** | ISC2 CC · Mastercard Cybersecurity Simulation | CAN-GuardAI · PUF Auth Server |
-| **Next step** | Turning framework knowledge into practical audit and risk work | Going deeper into vehicle architecture and automotive security standards |
+- 🛡️ **Foundation:** ISC2 CC, security and GRC fundamentals, Python and C++, data analysis
+- 🔬 **Built so far:** anomaly detection on 27M+ CAN bus messages, ESP32 device authentication, a threat-intelligence dashboard
+- 🔭 **Exploring:** how vehicles are secured, and how security is governed and proven
+- 🤝 **Looking for:** internships and entry-level roles in cybersecurity, automotive security or GRC
 
 ---
 
-## ❓ Questions I'm Chasing
+## 🔭 Areas I'm Exploring
 
-These are what pulled me toward SDV security:
+**🚗 Automotive & SDV security** *(early and curious)*
+- Software-defined vehicle architecture and what it means for security
+- Automotive cybersecurity fundamentals
+- In-vehicle networks such as CAN, and detecting attacks on them
+- Device identity and hardware-rooted trust
 
-- A car now receives software updates over the air. **How do you keep that update channel trustworthy?**
-- Dozens of ECUs trust each other on a network (CAN) that was designed without security in mind. **What does defending that look like?**
-- **How do you prove** a vehicle is secure enough to ship, not just claim it?
+**📋 GRC & risk** *(fundamentals, growing)*
+- Risk assessment, security controls and IT audit fundamentals
+- NIST, ISO 27001 and COBIT concepts
+- Access controls
+- Documentation that a reviewer can actually follow
 
-I don't have all the answers yet. That's the point of this profile.
+**📊 Security analytics** *(the thread through my projects)*
+- Data analysis, ML-based detection and explainability
 
 ---
 
-## 🔬 Projects
+## ❓ Questions I'm Exploring
 
-Each project is its own experiment, built to learn something specific.
+1. How do you keep an over-the-air software update channel trustworthy?
+2. How do you defend networks like CAN that were designed before modern security assumptions?
+3. How do you prove a vehicle is secure enough to ship, rather than simply claim it?
+4. How do you make a detection model explainable enough that someone else can trust its alerts?
+5. How do you turn a technical finding into a risk, a control and evidence that a reviewer can follow?
 
-### 🚗 CAN-GuardAI *(in progress)*
-Machine-learning anomaly detection on **27M+ real-world CAN bus messages** across multiple attack categories.
-- Exploratory analysis and feature engineering on a large dataset
-- Random Forest model evaluated on accuracy, precision, recall and F1
-- SHAP explainability and an interactive Streamlit dashboard
-- **What it taught me:** how in-vehicle network traffic behaves, and why explainable detection matters
-- `Python` `Random Forest` `SHAP` `Streamlit`
+I don't have complete answers yet, and that's the point of exploring them.
+
+---
+
+## 🧪 Featured Projects
+
+### 🚗 [CAN-GuardAI](https://github.com/sujay3806/CAN-GuardAI)
+*Anomaly detection on real-world CAN bus traffic, with explanations you can inspect.*
+
+- **What it does:** analyzes 27M+ real-world CAN bus messages to identify anomalous behavior across multiple attack categories, using a Random Forest classifier and an interactive Streamlit dashboard with SHAP explanations.
+- **What I explored:** exploratory data analysis and feature engineering on a large automotive dataset, and evaluating a model with accuracy, precision, recall and F1.
+- **What I learned:** how in-vehicle network traffic behaves, and why explainability matters when someone else has to trust a detection.
+- **Tech:** Python · Random Forest · SHAP · Streamlit · Groq API
 
 ### 🔐 [PUF Auth Server](https://github.com/sujay3806/puf-auth-server)
-Authentication server for an ESP32 project using **Physical Unclonable Functions**, where the chip's own physical traits act as its identity.
-- **What it taught me:** hardware-based identity and how embedded devices can prove who they are
-- `C++` `ESP32`
+*Exploring device identity using Physical Unclonable Functions on an ESP32.*
+
+- **What it does:** server-side authentication for an ESP32 project built around the PUF concept, using HMAC-SHA256 and Flask-based components.
+- **What I explored:** how a device's physical characteristics can act as its identity, and what a server needs to verify it.
+- **What I learned:** how embedded hardware and server-side code fit together in an authentication flow.
+- **Tech:** C++ · ESP32 · Flask · HMAC-SHA256
 
 ### 🌐 [Cyber Recon Dashboard](https://github.com/sujay3806/cyber-recon-dashboard)
-Threat-intelligence dashboard combining **NVD, VirusTotal and AbuseIPDB** for CVE lookups, IP reputation, malware scanning and security news.
-- Async FastAPI backend with a React frontend
-- **What it taught me:** working with multiple security data sources and presenting findings clearly
-- `FastAPI` `React` `Tailwind`
+*One dashboard for vulnerability and threat-intelligence lookups.*
+
+- **What it does:** brings NVD, VirusTotal and AbuseIPDB together for CVE intelligence, IP reputation, malware scanning and security news, through asynchronous FastAPI endpoints and a React frontend.
+- **What I explored:** working with several external security data sources, async processing, and clean frontend and backend separation. Deployed on Render.
+- **What I learned:** how vulnerability and reputation data is structured, and how to present it clearly.
+- **Tech:** FastAPI · React · Tailwind CSS · REST APIs
+
+Also on my GitHub: [carbon_credit_system](https://github.com/sujay3806/carbon_credit_system), a full-stack CRUD app built with Node.js, Express and MongoDB.
 
 ---
 
-## 💼 Experience
+## 💼 Experience & Credentials
 
 **Data Analyst Intern, AiRotor** *(Jul 2026)*
-Analyzed drone inspection datasets and built dashboards for renewable-energy inspection workflows.
-
----
-
-## 🛠️ Toolbox
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
----
-
-## 🏅 Credentials
+Analyzed drone inspection datasets and built dashboards supporting renewable-energy inspection workflows.
 
 - 🛡️ ISC2 Certified in Cybersecurity (CC)
-- 🎯 TryHackMe Pre Security, Top 8% global ranking
+- 🎯 TryHackMe Pre Security, top 8% global ranking
 - 💳 Mastercard Cybersecurity Job Simulation (Forage)
-- 🏆 Smart India Hackathon and HackMIT participant
+- 🏆 Hackathon participation: Smart India Hackathon, HackMIT
 
 ---
 
-## 🤝 Let's Connect
+## 🧰 Foundations
 
-I'm looking for internships and entry-level opportunities in **cybersecurity GRC** and **automotive / SDV security**. I'm happy to learn from people already working in these areas.
+- **Security & GRC:** ISC2 CC · NIST concepts · ISO 27001 concepts · COBIT (familiar) · risk assessment · security controls · IT audit fundamentals · access controls
+- **Programming & data:** Python · C++ · JavaScript · SQL · exploratory analysis, feature engineering, model evaluation
+- **Building:** FastAPI · Flask · React · Streamlit · Linux · Git
+
+---
+
+## 🤝 Connect
+
+If you work in automotive security, SDV or GRC, I'd enjoy hearing how you got started and what you wish you'd learned earlier.
 
 <p>
-  <a href="www.linkedin.com/in/sujay-chawda-7aa90a281"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:sujaychawdaofficial@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="[YOUR_RESUME_LINK](https://drive.google.com/file/d/1N2vd6FT85TD0n7lN06eGdEFksWg1A7bG/view?usp=sharing)"><img src="https://img.shields.io/badge/Resume-333?style=for-the-badge&logo=readthedocs&logoColor=white" /></a>
+  <a href="www.linkedin.com/in/sujay-chawda-7aa90a281">LinkedIn</a> ·
+  <a href="mailto:sujaychawdaofficial@gmail.com">sujaychawdaofficial@gmail.com</a> ·
+  <a href="[YOUR_RESUME_URL](https://drive.google.com/file/d/1N2vd6FT85TD0n7lN06eGdEFksWg1A7bG/view?usp=sharing)">Resume</a>
 </p>
